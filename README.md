@@ -5,6 +5,27 @@ Clone or download the repo, pick the style you need, and apply it to your own co
 
 ---
 
+```
+styles/
+├── Land/
+│ ├── Terrain-Vector-Layer-Style.qml
+│ ├── level-1-op.qml
+│ ├── level-2.qml
+│ └── terrain_1-12class.qml
+├── Climate/
+│ ├── MWS-Well-Depth-17_22.qml
+│ ├── MWS-Well-Depth-18_23.qml
+│ ├── Precipitation_Style.qml
+│ └── Runoff_style.qml
+├── Hydrology/
+│ ├── Aquifer_style.qml
+│ ├── CLART-Layer-Style.qml
+│ ├── Drainage-Layer-Style.qml
+│ ├── SOGE_style.qml
+│ └── Surface-Waterbody-style.qml
+└── … (more layer groups)
+```
+
 ## Repository structure
 
 ## Quick-start (QGIS ≥ 3.30)
