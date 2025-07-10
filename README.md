@@ -5,6 +5,8 @@ Clone or download the repo, pick the style you need, and apply it to your own co
 
 ---
 
+## Repository structure
+
 ```
 styles/
 ├── Land/
@@ -25,8 +27,6 @@ styles/
 │ └── Surface-Waterbody-style.qml
 └── … (more layer groups)
 ```
-
-## Repository structure
 
 ## Quick-start (QGIS ≥ 3.30)
 
