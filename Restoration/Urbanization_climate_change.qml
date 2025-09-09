@@ -149,8 +149,8 @@
           <item alpha="0" label="Background" value="0" color="#ffffff"/> //color="#ff00ff"
           <item alpha="255" label="Built Up - Built Up" value="1" color="#ff0000"/>
           <item alpha="255" label="Water - Built Up" value="2" color="#1ca3ec"/>
-          <item alpha="255" label="Tree/Farm - Built Up" value="3" color="#73bb53"/>
-          <item alpha="255" label="Barren/Shrub - Built Up" value="4" color="#a9a9a9"/>
+          <item alpha="255" label="Trees/Crops - Built Up" value="3" color="#73bb53"/>
+          <item alpha="255" label="Barren/Shrubs and Scrubs - Built Up" value="4" color="#a9a9a9"/>
           <rampLegendSettings prefix="" minimumLabel="" orientation="2" maximumLabel="" direction="0" suffix="" useContinuousLegend="1">
             <numericFormat id="basic">
               <Option type="Map">

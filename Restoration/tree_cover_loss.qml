@@ -29,7 +29,7 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer id="{da5065fb-8d4e-4ae2-93fe-8df000afdc2f}" enabled="1" locked="0" pass="0" class="SimpleLine">
+        <layer id="{befb3be0-d716-43eb-be6b-aa9fe4b8f887}" enabled="1" locked="0" pass="0" class="SimpleLine">
           <Option type="Map">
             <Option name="align_dash_pattern" value="0" type="QString"/>
             <Option name="capstyle" value="square" type="QString"/>
@@ -41,7 +41,7 @@
             <Option name="dash_pattern_offset_unit" value="MM" type="QString"/>
             <Option name="draw_inside_polygon" value="0" type="QString"/>
             <Option name="joinstyle" value="bevel" type="QString"/>
-            <Option name="line_color" value="125,139,143,255,rgb:0.49019607843137253,0.54509803921568623,0.5607843137254902,1" type="QString"/>
+            <Option name="line_color" value="164,113,88,255,rgb:0.64313725490196083,0.44313725490196076,0.34509803921568627,1" type="QString"/>
             <Option name="line_style" value="solid" type="QString"/>
             <Option name="line_width" value="0.6" type="QString"/>
             <Option name="line_width_unit" value="MM" type="QString"/>
@@ -78,10 +78,10 @@
             <Option name="type" value="collection" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer id="{27ee1621-1075-4dad-b8d4-282c46d7e6af}" enabled="1" locked="0" pass="0" class="SimpleFill">
+        <layer id="{2fc096b5-7e99-406c-8df0-90a17446a7fc}" enabled="1" locked="0" pass="0" class="SimpleFill">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-            <Option name="color" value="125,139,143,255,rgb:0.49019607843137253,0.54509803921568623,0.5607843137254902,1" type="QString"/>
+            <Option name="color" value="164,113,88,255,rgb:0.64313725490196083,0.44313725490196076,0.34509803921568627,1" type="QString"/>
             <Option name="joinstyle" value="bevel" type="QString"/>
             <Option name="offset" value="0,0" type="QString"/>
             <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
@@ -143,15 +143,15 @@
               <Option name="discrete" value="0" type="QString"/>
               <Option name="rampType" value="gradient" type="QString"/>
               <Option name="spec" value="rgb" type="QString"/>
-              <Option name="stops" value="0.2;115,187,83,255,rgb:0.45098039215686275,0.73333333333333328,0.32549019607843138,1;rgb;ccw:0.4;255,0,0,255,rgb:1,0,0,1;rgb;ccw:0.6;238,224,93,255,rgb:0.93333333333333335,0.8784313725490196,0.36470588235294116,1;rgb;ccw:0.8;169,169,169,255,rgb:0.66274509803921566,0.66274509803921566,0.66274509803921566,1;rgb;ccw" type="QString"/>
+              <Option name="stops" value="0.2;115,187,83,204,rgb:0.45098039215686275,0.73333333333333328,0.32549019607843138,0.80000000000000004;rgb;ccw:0.4;255,0,0,255,rgb:1,0,0,1;rgb;ccw:0.6;238,224,93,255,rgb:0.93333333333333335,0.8784313725490196,0.36470588235294116,1;rgb;ccw:0.8;169,169,169,255,rgb:0.66274509803921566,0.66274509803921566,0.66274509803921566,1;rgb;ccw" type="QString"/>
             </Option>
           </colorramp>
           <item alpha="0" label="Background" value="0" color="#f7fcf5"/>
-          <item alpha="255" label="Forest - Forest" value="1" color="#73bb53"/>
-          <item alpha="255" label="Built Up - Forest" value="2" color="#ff0000"/>
-          <item alpha="255" label="Farm - Forest" value="3" color="#eee05d"/>
-          <item alpha="255" label="Barren - Forest" value="4" color="#a9a9a9"/>
-          <item alpha="255" label="Scrub Land - Forest" value="5" color="#eaa4f0"/>
+          <item alpha="204" label=" Trees - Trees" value="1" color="#73bb53"/>
+          <item alpha="255" label="Trees - Built Up" value="2" color="#ff0000"/>
+          <item alpha="255" label="Trees - Crops" value="3" color="#eee05d"/>
+          <item alpha="255" label="Trees - Barren" value="4" color="#a9a9a9"/>
+          <item alpha="255" label="Trees - Shrubs and Scrubs" value="5" color="#eaa4f0"/>
           <rampLegendSettings prefix="" minimumLabel="" orientation="2" maximumLabel="" direction="0" suffix="" useContinuousLegend="1">
             <numericFormat id="basic">
               <Option type="Map">
