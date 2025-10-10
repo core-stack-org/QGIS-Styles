@@ -57,9 +57,9 @@
             <prop v="gradient" k="rampType"/>
             <prop v="0.5;0,117,0,255" k="stops"/>
           </colorramp>
-          <item alpha="255" value="0" color="#ffa500" label="0.0000"/>
-          <item alpha="255" value="1" color="#007500" label="1.0000"/>
-          <item alpha="255" value="2" color="#000000" label="2.0000"/>
+          <item value="0" label="Low Density" color="#ffa500" alpha="255"/>
+          <item value="1" label="High Density" color="#007500" alpha="255"/>
+          <item value="2" label="Missing Data" color="#000000" alpha="255"/>
           <rampLegendSettings maximumLabel="" minimumLabel="" orientation="2" suffix="" prefix="" direction="0" useContinuousLegend="1">
             <numericFormat id="basic">
               <Option type="Map">
