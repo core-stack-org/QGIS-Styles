@@ -146,14 +146,14 @@
               <Option type="QString" value="0.13;255,165,0,255,rgb:1,0.6470588235294118,0,1;rgb;ccw:0.26;138,255,138,255,rgb:0.54117647058823526,1,0.54117647058823526,1;rgb;ccw:0.39;222,230,76,255,rgb:0.87058823529411766,0.90196078431372551,0.29803921568627451,1;rgb;ccw:0.52;0,117,0,255,rgb:0,0.45882352941176469,0,1;rgb;ccw:0.65;0,117,0,255,rgb:0,0.45882352941176469,0,1;rgb;ccw:0.9;255,0,0,255,rgb:1,0,0,1;rgb;ccw" name="stops"/>
             </Option>
           </colorramp>
-          <item value="0" color="#ffffff" alpha="255" label="0"/>
-          <item value="0.91" color="#ffa500" alpha="255" label="1"/>
-          <item value="1.82" color="#8aff8a" alpha="255" label="2"/>
-          <item value="2.73" color="#dee64c" alpha="255" label="3"/>
-          <item value="3.64" color="#007500" alpha="255" label="4"/>
-          <item value="4.55" color="#007500" alpha="255" label="5"/>
-          <item value="6.3" color="#ff0000" alpha="255" label="6"/>
-          <item value="7" color="#ff0000" alpha="255" label="7"/>
+          <item value="0" color="#ffffff" alpha="255" label="STP Intact"/>
+          <item value="1" color="#ffa500" alpha="255" label="LTP Intact"/>
+          <item value="2" color="#8aff8a" alpha="255" label="Defragmentation"/>
+          <item value="3" color="#dee64c" alpha="255" label="Fragmentation"/>
+          <item value="4" color="#007500" alpha="255" label="Afforestation"/>
+          <item value="5" color="#007500" alpha="255" label="Afforestation"/>
+          <item value="6" color="#ff0000" alpha="255" label="Deforestation"/>
+          <item value="7" color="#ff0000" alpha="255" label="Deforestation"/>
           <rampLegendSettings suffix="" useContinuousLegend="1" maximumLabel="" minimumLabel="" orientation="2" prefix="" direction="0">
             <numericFormat id="basic">
               <Option type="Map">

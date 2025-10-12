@@ -146,14 +146,14 @@
               <Option name="stops" type="QString" value="0.000337185;95,188,246,255,rgb:0.37254901960784315,0.73725490196078436,0.96470588235294119,1;rgb;ccw:0.000674369;20,86,38,255,rgb:0.07843137254901961,0.33725490196078434,0.14901960784313725,1;rgb;ccw:0.00134874;61,240,60,255,rgb:0.23921568627450981,0.94117647058823528,0.23529411764705882,1;rgb;ccw:0.00280987;240,238,38,255,rgb:0.94117647058823528,0.93333333333333335,0.14901960784313725,1;rgb;ccw:0.00561974;235,129,21,255,rgb:0.92156862745098034,0.50588235294117645,0.08235294117647059,1;rgb;ccw:0.0112395;221,15,8,255,rgb:0.8666666666666667,0.05882352941176471,0.03137254901960784,1;rgb;ccw"/>
             </Option>
           </colorramp>
-          <item color="#0e10c7" label="0.0000" value="0" alpha="255"/>
-          <item color="#5fbcf6" label="60.0000" value="60" alpha="255"/>
-          <item color="#145626" label="120.0000" value="120" alpha="255"/>
-          <item color="#3df03c" label="240.0000" value="240" alpha="255"/>
-          <item color="#f0ee26" label="500.0000" value="500" alpha="255"/>
-          <item color="#eb8115" label="1000.0000" value="1000" alpha="255"/>
-          <item color="#dd0f08" label="2000.0000" value="2000" alpha="255"/>
-          <item color="#7d0b1b" label="177944.0625" value="177944.0625" alpha="255"/>
+          <item color="#0e10c7" label="0 m" value="0" alpha="255"/>
+          <item color="#5fbcf6" label="1-60 m" value="60" alpha="255"/>
+          <item color="#145626" label="60-120 m" value="120" alpha="255"/>
+          <item color="#3df03c" label="120-240 m" value="240" alpha="255"/>
+          <item color="#f0ee26" label="240-500 m" value="500" alpha="255"/>
+          <item color="#eb8115" label="500-1000 m" value="1000" alpha="255"/>
+          <item color="#dd0f08" label="1000-2000 m" value="2000" alpha="255"/>
+          <item color="#7d0b1b" label="2000+ m" value="177944.0625" alpha="255"/>
           <rampLegendSettings suffix="" maximumLabel="" useContinuousLegend="1" orientation="2" direction="0" minimumLabel="" prefix="">
             <numericFormat id="basic">
               <Option type="Map">
