@@ -16,7 +16,7 @@
     <categories>
       <category symbol="0" label="Broad sloppy and Hilly" render="true" value="0"/>
       <category symbol="1" label="Mostly Plains" render="true" value="1"/>
-      <category symbol="2" label="Mosttly Hills and valleys" render="true" value="2"/>
+      <category symbol="2" label="Mostly Hills and valleys" render="true" value="2"/>
       <category symbol="3" label="Broad Plains and slops" render="true" value="3"/>
     </categories>
     <symbols>
