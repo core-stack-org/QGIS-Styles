@@ -14,10 +14,10 @@
   </temporal>
   <renderer-v2 attr="terrainClu" referencescale="-1" symbollevels="0" forceraster="0" type="categorizedSymbol" enableorderby="0">
     <categories>
-      <category symbol="0" label="Broad sloppy and Hilly" render="true" value="0"/>
+      <category symbol="0" label="Broad Sloppy and Hilly" render="true" value="0"/>
       <category symbol="1" label="Mostly Plains" render="true" value="1"/>
-      <category symbol="2" label="Mostly Hills and valleys" render="true" value="2"/>
-      <category symbol="3" label="Broad Plains and slops" render="true" value="3"/>
+      <category symbol="2" label="Mostly Hills and Valleys" render="true" value="2"/>
+      <category symbol="3" label="Broad Plains and Slopes" render="true" value="3"/>
     </categories>
     <symbols>
       <symbol name="0" force_rhr="0" clip_to_extent="1" type="fill" alpha="1">
