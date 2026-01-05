@@ -27,7 +27,7 @@
           <item value="500" label="200 - 500ha" color="#23898e" alpha="255"/>
           <item value="1000" label="500 – 1000ha" color="#20a486" alpha="255"/>
           <item value="2000" label="1000 - 2000ha" color="#5ec962" alpha="255"/>
-          <item value="inf" label="> 2000ha" color="#fde725" alpha="255"/>
+          <item value="99999" label="> 2000ha" color="#fde725" alpha="255"/>
         </colorrampshader>
       </rastershader>
     </rasterrenderer>

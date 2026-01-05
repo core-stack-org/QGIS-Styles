@@ -152,7 +152,7 @@
           <item label="240.0000 - 500.0000" alpha="255" value="500" color="#f0ee26"/>
           <item label="500.0000 - 1000.0000" alpha="255" value="1000" color="#eb8115"/>
           <item label="1000.0000 - 2000.0000" alpha="255" value="2000" color="#dd0f08"/>
-          <item label="> 2000.0000" alpha="255" value="inf" color="#7d0b1b"/>
+          <item label="> 2000.0000" alpha="255" value="999999" color="#7d0b1b"/>
           <rampLegendSettings minimumLabel="" maximumLabel="" direction="0" orientation="2" suffix="" useContinuousLegend="1" prefix="">
             <numericFormat id="basic">
               <Option type="Map">
