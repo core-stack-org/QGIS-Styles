@@ -20,14 +20,14 @@
             </Option>
           </colorramp>
           <item value="0" label="No Data" color="#ffffff" alpha="0"/>
-          <item value="2" label="≤ 2" color="#440154" alpha="255"/>
-          <item value="50" label="2 - 50" color="#472d7b" alpha="255"/>
-          <item value="100" label="50 – 100" color="#3b518b" alpha="255"/>
-          <item value="200" label="100 – 200" color="#2c718e" alpha="255"/>
-          <item value="500" label="200 - 500" color="#23898e" alpha="255"/>
-          <item value="1000" label="500 – 1000" color="#20a486" alpha="255"/>
-          <item value="2000" label="1000 - 2000" color="#5ec962" alpha="255"/>
-          <item value="inf" label="> 2000" color="#fde725" alpha="255"/>
+          <item value="2" label="≤ 2ha" color="#440154" alpha="255"/>
+          <item value="50" label="2 - 50ha" color="#472d7b" alpha="255"/>
+          <item value="100" label="50 – 100ha" color="#3b518b" alpha="255"/>
+          <item value="200" label="100 – 200ha" color="#2c718e" alpha="255"/>
+          <item value="500" label="200 - 500ha" color="#23898e" alpha="255"/>
+          <item value="1000" label="500 – 1000ha" color="#20a486" alpha="255"/>
+          <item value="2000" label="1000 - 2000ha" color="#5ec962" alpha="255"/>
+          <item value="inf" label="> 2000ha" color="#fde725" alpha="255"/>
         </colorrampshader>
       </rastershader>
     </rasterrenderer>
