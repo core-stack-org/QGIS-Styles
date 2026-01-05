@@ -154,7 +154,7 @@
           <item label="200 - 500ha" alpha="255" value="500" color="#219889"/>
           <item label="500 - 1000ha" alpha="255" value="1000" color="#4cbe6c"/>
           <item label="1000 - 2000ha" alpha="255" value="2000" color="#e6e32e"/>
-          <item label="> 2000ha" alpha="255" value="inf" color="#fde725"/>
+          <item label="> 2000ha" alpha="255" value="999999" color="#fde725"/>
           <rampLegendSettings minimumLabel="" direction="0" useContinuousLegend="1" suffix="" maximumLabel="" prefix="" orientation="2">
             <numericFormat id="basic">
               <Option type="Map">
