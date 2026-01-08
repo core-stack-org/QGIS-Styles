@@ -1,12 +1,12 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.22.4-Białowieża" hasScaleBasedVisibilityFlag="0" minScale="1e+08" maxScale="0" styleCategories="AllStyleCategories">
+<qgis maxScale="0" hasScaleBasedVisibilityFlag="0" version="3.22.4-Białowieża" minScale="1e+08" styleCategories="AllStyleCategories">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
     <Private>0</Private>
   </flags>
-  <temporal fetchMode="0" enabled="0" mode="0">
+  <temporal enabled="0" fetchMode="0" mode="0">
     <fixedRange>
       <start></start>
       <end></end>
@@ -14,24 +14,24 @@
   </temporal>
   <customproperties>
     <Option type="Map">
-      <Option name="WMSBackgroundLayer" type="bool" value="false"/>
-      <Option name="WMSPublishDataSourceUrl" type="bool" value="false"/>
-      <Option name="embeddedWidgets/count" type="int" value="0"/>
-      <Option name="identify/format" type="QString" value="Value"/>
+      <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+      <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+      <Option type="int" value="0" name="embeddedWidgets/count"/>
+      <Option type="QString" value="Value" name="identify/format"/>
     </Option>
   </customproperties>
   <pipe-data-defined-properties>
     <Option type="Map">
-      <Option name="name" type="QString" value=""/>
+      <Option type="QString" value="" name="name"/>
       <Option name="properties"/>
-      <Option name="type" type="QString" value="collection"/>
+      <Option type="QString" value="collection" name="type"/>
     </Option>
   </pipe-data-defined-properties>
   <pipe>
     <provider>
-      <resampling zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" enabled="false"/>
+      <resampling zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2" enabled="false" zoomedInResamplingMethod="nearestNeighbour"/>
     </provider>
-    <rasterrenderer alphaBand="-1" classificationMax="5" opacity="1" nodataColor="" band="1" type="singlebandpseudocolor" classificationMin="1">
+    <rasterrenderer band="1" classificationMin="1" alphaBand="-1" type="singlebandpseudocolor" classificationMax="5" nodataColor="" opacity="1">
       <rasterTransparency/>
       <minMaxOrigin>
         <limits>None</limits>
@@ -42,36 +42,36 @@
         <stdDevFactor>2</stdDevFactor>
       </minMaxOrigin>
       <rastershader>
-        <colorrampshader colorRampType="INTERPOLATED" classificationMode="3" maximumValue="5" minimumValue="1" labelPrecision="0" clip="0">
-          <colorramp name="[source]" type="gradient">
+        <colorrampshader colorRampType="INTERPOLATED" minimumValue="1" maximumValue="5" labelPrecision="0" classificationMode="3" clip="0">
+          <colorramp type="gradient" name="[source]">
             <Option type="Map">
-              <Option name="color1" type="QString" value="78,227,35,255"/>
-              <Option name="color2" type="QString" value="23,116,222,255"/>
-              <Option name="discrete" type="QString" value="0"/>
-              <Option name="rampType" type="QString" value="gradient"/>
-              <Option name="stops" type="QString" value="0.25;243,255,51,255:0.5;242,18,35,255:0.75;180,15,125,255"/>
+              <Option type="QString" value="78,227,35,255" name="color1"/>
+              <Option type="QString" value="23,116,222,255" name="color2"/>
+              <Option type="QString" value="0" name="discrete"/>
+              <Option type="QString" value="gradient" name="rampType"/>
+              <Option type="QString" value="0.25;243,255,51,255:0.5;242,18,35,255:0.75;180,15,125,255" name="stops"/>
             </Option>
-            <prop v="78,227,35,255" k="color1"/>
-            <prop v="23,116,222,255" k="color2"/>
-            <prop v="0" k="discrete"/>
-            <prop v="gradient" k="rampType"/>
-            <prop v="0.25;243,255,51,255:0.5;242,18,35,255:0.75;180,15,125,255" k="stops"/>
+            <prop k="color1" v="78,227,35,255"/>
+            <prop k="color2" v="23,116,222,255"/>
+            <prop k="discrete" v="0"/>
+            <prop k="rampType" v="gradient"/>
+            <prop k="stops" v="0.25;243,255,51,255:0.5;242,18,35,255:0.75;180,15,125,255"/>
           </colorramp>
-          <item label="Good recharge" color="#4ee323" alpha="255" value="1"/>
-          <item label="Moderate recharge" color="#f3ff33" alpha="255" value="2"/>
-          <item label="Surface water harvesting" color="#f21223" alpha="255" value="3"/>
-          <item label="Regeneration" color="#b40f7d" alpha="255" value="4"/>
-          <item label="High runoff zone" color="#1774de" alpha="255" value="5"/>
-          <rampLegendSettings prefix="" minimumLabel="" orientation="2" direction="0" suffix="" useContinuousLegend="1" maximumLabel="">
+          <item alpha="255" color="#4ee323" value="1" label="Good_recharge"/>
+          <item alpha="255" color="#f3ff33" value="2" label="Moderate_recharge"/>
+          <item alpha="255" color="#f21223" value="3" label="Surface_water_harvesting"/>
+          <item alpha="255" color="#b40f7d" value="4" label="Regeneration"/>
+          <item alpha="255" color="#1774de" value="5" label="High_runoff_zone"/>
+          <rampLegendSettings maximumLabel="" minimumLabel="" prefix="" orientation="2" suffix="" direction="0" useContinuousLegend="1">
             <numericFormat id="basic">
               <Option type="Map">
-                <Option name="decimal_separator" type="QChar" value=""/>
-                <Option name="decimals" type="int" value="6"/>
-                <Option name="rounding_type" type="int" value="0"/>
-                <Option name="show_plus" type="bool" value="false"/>
-                <Option name="show_thousand_separator" type="bool" value="true"/>
-                <Option name="show_trailing_zeros" type="bool" value="false"/>
-                <Option name="thousand_separator" type="QChar" value=""/>
+                <Option type="QChar" value="" name="decimal_separator"/>
+                <Option type="int" value="6" name="decimals"/>
+                <Option type="int" value="0" name="rounding_type"/>
+                <Option type="bool" value="false" name="show_plus"/>
+                <Option type="bool" value="true" name="show_thousand_separator"/>
+                <Option type="bool" value="false" name="show_trailing_zeros"/>
+                <Option type="QChar" value="" name="thousand_separator"/>
               </Option>
             </numericFormat>
           </rampLegendSettings>
@@ -79,7 +79,7 @@
       </rastershader>
     </rasterrenderer>
     <brightnesscontrast brightness="0" contrast="0" gamma="1"/>
-    <huesaturation invertColors="0" saturation="0" colorizeOn="0" colorizeGreen="128" grayscaleMode="0" colorizeStrength="100" colorizeBlue="128" colorizeRed="255"/>
+    <huesaturation invertColors="0" colorizeRed="255" colorizeStrength="100" colorizeBlue="128" grayscaleMode="0" colorizeGreen="128" colorizeOn="0" saturation="0"/>
     <rasterresampler maxOversampling="2"/>
     <resamplingStage>resamplingFilter</resamplingStage>
   </pipe>

@@ -1,12 +1,12 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis minScale="1e+08" styleCategories="AllStyleCategories" version="3.22.4-Białowieża" maxScale="0" hasScaleBasedVisibilityFlag="0">
+<qgis maxScale="0" version="3.22.4-Białowieża" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" minScale="1e+08">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
     <Private>0</Private>
   </flags>
-  <temporal mode="0" fetchMode="0" enabled="0">
+  <temporal mode="0" enabled="0" fetchMode="0">
     <fixedRange>
       <start></start>
       <end></end>
@@ -31,7 +31,7 @@
     <provider>
       <resampling maxOversampling="2" zoomedOutResamplingMethod="nearestNeighbour" enabled="false" zoomedInResamplingMethod="nearestNeighbour"/>
     </provider>
-    <rasterrenderer nodataColor="" opacity="1" type="paletted" alphaBand="-1" band="1">
+    <rasterrenderer band="1" opacity="1" type="paletted" alphaBand="-1" nodataColor="">
       <rasterTransparency/>
       <minMaxOrigin>
         <limits>None</limits>
@@ -42,22 +42,24 @@
         <stdDevFactor>2</stdDevFactor>
       </minMaxOrigin>
       <colorPalette>
-        <paletteEntry label="Short_Trees" alpha="255" color="#ffa500" value="0"/>
-        <paletteEntry label="Short_Trees" alpha="255" color="#ffa500" value="1"/>
-        <paletteEntry label="Medium_Trees" alpha="255" color="#dee64c" value="2"/>
-        <paletteEntry label="Medium_Trees" alpha="255" color="#dee64c" value="3"/>
-        <paletteEntry label="Medium_Trees" alpha="255" color="#dee64c" value="4"/>
-        <paletteEntry label="Medium_Trees" alpha="255" color="#dee64c" value="5"/>
-        <paletteEntry label="Tall_Trees" alpha="255" color="#007500" value="6"/>
-        <paletteEntry label="Tall_Trees" alpha="255" color="#007500" value="7"/>
-        <paletteEntry label="Missing_Data" alpha="255" color="#000000" value="8"/>
+        <paletteEntry alpha="255" color="#313695" label="V-shape_river_valleys_and_Deep_narrow_canyons" value="1"/>
+        <paletteEntry alpha="255" color="#4575b4" label="Lateral_midslope_incised_drainages_and_Local_valleys_in_plains" value="2"/>
+        <paletteEntry alpha="255" color="#a50026" label="Upland_incised_drainages_and_Stream_headwaters" value="3"/>
+        <paletteEntry alpha="255" color="#e0f3f8" label="U-shape_valleys" value="4"/>
+        <paletteEntry alpha="255" color="#fffc00" label="Broad_flat_areas" value="5"/>
+        <paletteEntry alpha="255" color="#feb24c" label="Broad_open_slopes" value="6"/>
+        <paletteEntry alpha="255" color="#f46d43" label="Mesa_tops" value="7"/>
+        <paletteEntry alpha="255" color="#d73027" label="Upper_slopes" value="8"/>
+        <paletteEntry alpha="255" color="#91bfdb" label="Local_ridge_or_hilltops_within_broad_valleys" value="9"/>
+        <paletteEntry alpha="255" color="#800000" label="Lateral_midslope_drainage_divides_and_Local_ridges_in_plains" value="10"/>
+        <paletteEntry alpha="255" color="#4d0000" label="Mountain_tops_and_high_ridges" value="11"/>
       </colorPalette>
       <colorramp name="[source]" type="randomcolors">
         <Option/>
       </colorramp>
     </rasterrenderer>
-    <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
-    <huesaturation invertColors="0" colorizeOn="0" colorizeGreen="128" colorizeBlue="128" grayscaleMode="0" colorizeRed="255" saturation="0" colorizeStrength="100"/>
+    <brightnesscontrast gamma="1" brightness="0" contrast="0"/>
+    <huesaturation invertColors="0" colorizeOn="0" colorizeRed="255" grayscaleMode="0" colorizeBlue="128" colorizeStrength="100" saturation="0" colorizeGreen="128"/>
     <rasterresampler maxOversampling="2"/>
     <resamplingStage>resamplingFilter</resamplingStage>
   </pipe>

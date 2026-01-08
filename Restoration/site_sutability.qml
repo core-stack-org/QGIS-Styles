@@ -1,12 +1,12 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.22.4-Białowieża" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" minScale="1e+08" maxScale="0">
+<qgis maxScale="0" hasScaleBasedVisibilityFlag="0" version="3.22.4-Białowieża" minScale="1e+08" styleCategories="AllStyleCategories">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
     <Private>0</Private>
   </flags>
-  <temporal enabled="0" mode="0" fetchMode="0">
+  <temporal enabled="0" fetchMode="0" mode="0">
     <fixedRange>
       <start></start>
       <end></end>
@@ -14,24 +14,24 @@
   </temporal>
   <customproperties>
     <Option type="Map">
-      <Option name="WMSBackgroundLayer" type="bool" value="false"/>
-      <Option name="WMSPublishDataSourceUrl" type="bool" value="false"/>
-      <Option name="embeddedWidgets/count" type="int" value="0"/>
-      <Option name="identify/format" type="QString" value="Value"/>
+      <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+      <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+      <Option type="int" value="0" name="embeddedWidgets/count"/>
+      <Option type="QString" value="Value" name="identify/format"/>
     </Option>
   </customproperties>
   <pipe-data-defined-properties>
     <Option type="Map">
-      <Option name="name" type="QString" value=""/>
+      <Option type="QString" value="" name="name"/>
       <Option name="properties"/>
-      <Option name="type" type="QString" value="collection"/>
+      <Option type="QString" value="collection" name="type"/>
     </Option>
   </pipe-data-defined-properties>
   <pipe>
     <provider>
-      <resampling enabled="false" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour"/>
+      <resampling zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2" enabled="false" zoomedInResamplingMethod="nearestNeighbour"/>
     </provider>
-    <rasterrenderer alphaBand="-1" nodataColor="" type="paletted" band="1" opacity="1">
+    <rasterrenderer band="1" alphaBand="-1" type="paletted" nodataColor="" opacity="1">
       <rasterTransparency/>
       <minMaxOrigin>
         <limits>None</limits>
@@ -42,18 +42,18 @@
         <stdDevFactor>2</stdDevFactor>
       </minMaxOrigin>
       <colorPalette>
-        <paletteEntry alpha="255" label="0" value="0" color="#2e7d32"/>
-        <paletteEntry alpha="255" label="1" value="1" color="#66bb6a"/>
-        <paletteEntry alpha="255" label="2" value="2" color="#fdd835"/>
-        <paletteEntry alpha="255" label="3" value="3" color="#ff8f00"/>
-        <paletteEntry alpha="255" label="4" value="4" color="#d32f2f"/>
+        <paletteEntry alpha="255" color="#2e7d32" value="0" label="Very_Good"/>
+        <paletteEntry alpha="255" color="#66bb6a" value="1" label="Good"/>
+        <paletteEntry alpha="255" color="#fdd835" value="2" label="Moderate"/>
+        <paletteEntry alpha="255" color="#ff8f00" value="3" label="Marginally_Suitable"/>
+        <paletteEntry alpha="255" color="#d32f2f" value="4" label="Unsuitable"/>
       </colorPalette>
-      <colorramp name="[source]" type="randomcolors">
+      <colorramp type="randomcolors" name="[source]">
         <Option/>
       </colorramp>
     </rasterrenderer>
-    <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-    <huesaturation invertColors="0" colorizeBlue="128" saturation="0" colorizeRed="255" grayscaleMode="0" colorizeOn="0" colorizeGreen="128" colorizeStrength="100"/>
+    <brightnesscontrast brightness="0" contrast="0" gamma="1"/>
+    <huesaturation invertColors="0" colorizeRed="255" colorizeStrength="100" colorizeBlue="128" grayscaleMode="0" colorizeGreen="128" colorizeOn="0" saturation="0"/>
     <rasterresampler maxOversampling="2"/>
     <resamplingStage>resamplingFilter</resamplingStage>
   </pipe>

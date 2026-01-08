@@ -31,10 +31,10 @@
     <provider>
       <resampling zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2" enabled="false" zoomedInResamplingMethod="nearestNeighbour"/>
     </provider>
-    <rasterrenderer band="1" classificationMin="0" alphaBand="-1" type="singlebandpseudocolor" classificationMax="2000" nodataColor="" opacity="1">
+    <rasterrenderer band="1" classificationMin="1" alphaBand="-1" type="singlebandpseudocolor" classificationMax="4" nodataColor="" opacity="1">
       <rasterTransparency/>
       <minMaxOrigin>
-        <limits>None</limits>
+        <limits>MinMax</limits>
         <extent>WholeRaster</extent>
         <statAccuracy>Estimated</statAccuracy>
         <cumulativeCutLower>0.02</cumulativeCutLower>
@@ -42,30 +42,26 @@
         <stdDevFactor>2</stdDevFactor>
       </minMaxOrigin>
       <rastershader>
-        <colorrampshader colorRampType="DISCRETE" minimumValue="0" maximumValue="2000" labelPrecision="0" classificationMode="2" clip="0">
+        <colorrampshader colorRampType="INTERPOLATED" minimumValue="1" maximumValue="4" labelPrecision="0" classificationMode="2" clip="0">
           <colorramp type="gradient" name="[source]">
             <Option type="Map">
-              <Option type="QString" value="255,255,255,255" name="color1"/>
-              <Option type="QString" value="253,231,37,255" name="color2"/>
+              <Option type="QString" value="247,252,245,0" name="color1"/>
+              <Option type="QString" value="234,164,240,255" name="color2"/>
               <Option type="QString" value="0" name="discrete"/>
               <Option type="QString" value="gradient" name="rampType"/>
-              <Option type="QString" value="0.001;68,1,84,0:0.025;69,49,124,0:0.05;55,90,140,0:0.1;40,123,142,0:0.25;33,152,137,0:0.5;76,190,108,0:1;230,227,46,0" name="stops"/>
+              <Option type="QString" value="0.25;238,224,93,255:0.5;255,0,0,255:0.75;169,169,169,255" name="stops"/>
             </Option>
-            <prop k="color1" v="255,255,255,255"/>
-            <prop k="color2" v="253,231,37,255"/>
+            <prop k="color1" v="247,252,245,0"/>
+            <prop k="color2" v="234,164,240,255"/>
             <prop k="discrete" v="0"/>
             <prop k="rampType" v="gradient"/>
-            <prop k="stops" v="0.001;68,1,84,0:0.025;69,49,124,0:0.05;55,90,140,0:0.1;40,123,142,0:0.25;33,152,137,0:0.5;76,190,108,0:1;230,227,46,0"/>
+            <prop k="stops" v="0.25;238,224,93,255:0.5;255,0,0,255:0.75;169,169,169,255"/>
           </colorramp>
-          <item alpha="255" color="#ffffff" value="0" label="less_than_or_equal_to_zero_ha"/>
-          <item alpha="255" color="#440154" value="2" label="0-2_ha"/>
-          <item alpha="255" color="#45317c" value="50" label="2-50_ha"/>
-          <item alpha="255" color="#375a8c" value="100" label="50-100_ha"/>
-          <item alpha="255" color="#287b8e" value="200" label="100-200_ha"/>
-          <item alpha="255" color="#219889" value="500" label="200-500_ha"/>
-          <item alpha="255" color="#4cbe6c" value="1000" label="500-1000_ha"/>
-          <item alpha="255" color="#e6e32e" value="2000" label="1000-2000_ha"/>
-          <item alpha="255" color="#fde725" value="999999" label="greater_than_2000_ha"/>
+          <item alpha="0" color="#f7fcf5" value="1" label="1"/>
+          <item alpha="255" color="#eee05d" value="1.75" label="Crops-Crops"/>
+          <item alpha="255" color="#ff0000" value="2.5" label="Crops-Built_Up"/>
+          <item alpha="255" color="#a9a9a9" value="3.25" label="Crops-Barren"/>
+          <item alpha="255" color="#eaa4f0" value="4" label="Crops-Scrub_Land"/>
           <rampLegendSettings maximumLabel="" minimumLabel="" prefix="" orientation="2" suffix="" direction="0" useContinuousLegend="1">
             <numericFormat id="basic">
               <Option type="Map">

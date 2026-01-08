@@ -42,15 +42,10 @@
         <stdDevFactor>2</stdDevFactor>
       </minMaxOrigin>
       <colorPalette>
-        <paletteEntry label="Short_Trees" alpha="255" color="#ffa500" value="0"/>
-        <paletteEntry label="Short_Trees" alpha="255" color="#ffa500" value="1"/>
-        <paletteEntry label="Medium_Trees" alpha="255" color="#dee64c" value="2"/>
-        <paletteEntry label="Medium_Trees" alpha="255" color="#dee64c" value="3"/>
-        <paletteEntry label="Medium_Trees" alpha="255" color="#dee64c" value="4"/>
-        <paletteEntry label="Medium_Trees" alpha="255" color="#dee64c" value="5"/>
-        <paletteEntry label="Tall_Trees" alpha="255" color="#007500" value="6"/>
-        <paletteEntry label="Tall_Trees" alpha="255" color="#007500" value="7"/>
-        <paletteEntry label="Missing_Data" alpha="255" color="#000000" value="8"/>
+        <paletteEntry label="Excluded" alpha="0" color="#d2d2d2" value="0"/>
+        <paletteEntry label="Mosain_Restoration" alpha="255" color="#d79b0f" value="1"/>
+        <paletteEntry label="Wide_scale_Restoration" alpha="255" color="#0f077c" value="2"/>
+        <paletteEntry label="Protection" alpha="255" color="#4fbc14" value="3"/>
       </colorPalette>
       <colorramp name="[source]" type="randomcolors">
         <Option/>

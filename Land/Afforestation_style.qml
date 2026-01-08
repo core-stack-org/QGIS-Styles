@@ -1,12 +1,12 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis minScale="1e+08" styleCategories="AllStyleCategories" version="3.22.4-Białowieża" maxScale="0" hasScaleBasedVisibilityFlag="0">
+<qgis maxScale="0" version="3.22.4-Białowieża" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" minScale="1e+08">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
     <Private>0</Private>
   </flags>
-  <temporal mode="0" fetchMode="0" enabled="0">
+  <temporal mode="0" enabled="0" fetchMode="0">
     <fixedRange>
       <start></start>
       <end></end>
@@ -31,7 +31,7 @@
     <provider>
       <resampling maxOversampling="2" zoomedOutResamplingMethod="nearestNeighbour" enabled="false" zoomedInResamplingMethod="nearestNeighbour"/>
     </provider>
-    <rasterrenderer nodataColor="" opacity="1" type="singlebandpseudocolor" alphaBand="-1" classificationMax="5" band="1" classificationMin="-2">
+    <rasterrenderer band="1" classificationMax="6" classificationMin="1" opacity="1" type="singlebandpseudocolor" alphaBand="-1" nodataColor="">
       <rasterTransparency/>
       <minMaxOrigin>
         <limits>None</limits>
@@ -42,30 +42,28 @@
         <stdDevFactor>2</stdDevFactor>
       </minMaxOrigin>
       <rastershader>
-        <colorrampshader clip="0" labelPrecision="0" colorRampType="INTERPOLATED" minimumValue="-2" maximumValue="5" classificationMode="3">
+        <colorrampshader classificationMode="2" labelPrecision="0" minimumValue="1" colorRampType="INTERPOLATED" maximumValue="6" clip="0">
           <colorramp name="[source]" type="gradient">
             <Option type="Map">
-              <Option name="color1" type="QString" value="255,0,0,255"/>
-              <Option name="color2" type="QString" value="0,0,0,255"/>
+              <Option name="color1" type="QString" value="247,252,245,0"/>
+              <Option name="color2" type="QString" value="234,164,240,255"/>
               <Option name="discrete" type="QString" value="0"/>
               <Option name="rampType" type="QString" value="gradient"/>
-              <Option name="stops" type="QString" value="0.142857;255,165,0,255:0.285714;255,255,255,255:0.428571;138,255,138,255:0.571429;0,117,0,255:0.714286;222,230,76,255:0.857143;222,230,76,255"/>
+              <Option name="stops" type="QString" value="0.2;115,187,83,255:0.4;255,0,0,255:0.6;238,224,93,255:0.8;169,169,169,255"/>
             </Option>
-            <prop k="color1" v="255,0,0,255"/>
-            <prop k="color2" v="0,0,0,255"/>
-            <prop k="discrete" v="0"/>
-            <prop k="rampType" v="gradient"/>
-            <prop k="stops" v="0.142857;255,165,0,255:0.285714;255,255,255,255:0.428571;138,255,138,255:0.571429;0,117,0,255:0.714286;222,230,76,255:0.857143;222,230,76,255"/>
+            <prop v="247,252,245,0" k="color1"/>
+            <prop v="234,164,240,255" k="color2"/>
+            <prop v="0" k="discrete"/>
+            <prop v="gradient" k="rampType"/>
+            <prop v="0.2;115,187,83,255:0.4;255,0,0,255:0.6;238,224,93,255:0.8;169,169,169,255" k="stops"/>
           </colorramp>
-          <item label="Deforestation" alpha="255" color="#ff0000" value="-2"/>
-          <item label="Degradation" alpha="255" color="#ffa500" value="-1"/>
-          <item label="No_Change" alpha="255" color="#ffffff" value="0"/>
-          <item label="Improvement" alpha="255" color="#8aff8a" value="1"/>
-          <item label="Afforestation" alpha="255" color="#007500" value="2"/>
-          <item label="Partially_Degraded" alpha="255" color="#dee64c" value="3"/>
-          <item label="Partially_Degraded" alpha="255" color="#dee64c" value="4"/>
-          <item label="Missing_Data" alpha="255" color="#000000" value="5"/>
-          <rampLegendSettings useContinuousLegend="1" suffix="" direction="0" prefix="" minimumLabel="" orientation="2" maximumLabel="">
+          <item alpha="0" color="#f7fcf5" label="1" value="1"/>
+          <item alpha="255" color="#73bb53" label="Trees-Trees" value="2"/>
+          <item alpha="255" color="#ff0000" label="Built_Up-Trees" value="3"/>
+          <item alpha="255" color="#eee05d" label="Crops-Trees" value="4"/>
+          <item alpha="255" color="#a9a9a9" label="Barren-Trees" value="5"/>
+          <item alpha="255" color="#eaa4f0" label="Shrubs_and_Scrubs-Trees" value="6"/>
+          <rampLegendSettings maximumLabel="" suffix="" prefix="" useContinuousLegend="1" orientation="2" minimumLabel="" direction="0">
             <numericFormat id="basic">
               <Option type="Map">
                 <Option name="decimal_separator" type="QChar" value=""/>
@@ -81,8 +79,8 @@
         </colorrampshader>
       </rastershader>
     </rasterrenderer>
-    <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
-    <huesaturation invertColors="0" colorizeOn="0" colorizeGreen="128" colorizeBlue="128" grayscaleMode="0" colorizeRed="255" saturation="0" colorizeStrength="100"/>
+    <brightnesscontrast gamma="1" brightness="0" contrast="0"/>
+    <huesaturation invertColors="0" colorizeOn="0" colorizeRed="255" grayscaleMode="0" colorizeBlue="128" colorizeStrength="100" saturation="0" colorizeGreen="128"/>
     <rasterresampler maxOversampling="2"/>
     <resamplingStage>resamplingFilter</resamplingStage>
   </pipe>
