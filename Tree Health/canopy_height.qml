@@ -42,15 +42,15 @@
         <stdDevFactor>2</stdDevFactor>
       </minMaxOrigin>
       <colorPalette>
-        <paletteEntry color="#ffa500" value="0" alpha="255" label="Short Trees"/>
-        <paletteEntry color="#ffa500" value="1" alpha="255" label="Short Trees"/>
-        <paletteEntry color="#dee64c" value="2" alpha="255" label="Medium Trees"/>
-        <paletteEntry color="#dee64c" value="3" alpha="255" label="Medium Trees"/>
-        <paletteEntry color="#dee64c" value="4" alpha="255" label="Medium Trees"/>
-        <paletteEntry color="#dee64c" value="5" alpha="255" label="Medium Trees"/>
-        <paletteEntry color="#007500" value="6" alpha="255" label="Tall Trees"/>
-        <paletteEntry color="#007500" value="7" alpha="255" label="Tall Trees"/>
-        <paletteEntry color="#000000" value="8" alpha="255" label="Missing Data"/>
+        <paletteEntry color="#ffa500" value="0" alpha="255" label="Short_Trees"/>
+        <paletteEntry color="#ffa500" value="1" alpha="255" label="Short_Trees"/>
+        <paletteEntry color="#dee64c" value="2" alpha="255" label="Medium_Trees"/>
+        <paletteEntry color="#dee64c" value="3" alpha="255" label="Medium_Trees"/>
+        <paletteEntry color="#dee64c" value="4" alpha="255" label="Medium_Trees"/>
+        <paletteEntry color="#dee64c" value="5" alpha="255" label="Medium_Trees"/>
+        <paletteEntry color="#007500" value="6" alpha="255" label="Tall_Trees"/>
+        <paletteEntry color="#007500" value="7" alpha="255" label="Tall_Trees"/>
+        <paletteEntry color="#000000" value="8" alpha="255" label="Missing_Data"/>
       </colorPalette>
       <colorramp type="randomcolors" name="[source]">
         <Option/>
