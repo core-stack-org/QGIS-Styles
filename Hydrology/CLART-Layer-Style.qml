@@ -57,11 +57,11 @@
             <prop v="gradient" k="rampType"/>
             <prop v="0.25;243,255,51,255:0.5;242,18,35,255:0.75;180,15,125,255" k="stops"/>
           </colorramp>
-          <item label="Good recharge" color="#4ee323" alpha="255" value="1"/>
-          <item label="Moderate recharge" color="#f3ff33" alpha="255" value="2"/>
-          <item label="Surface water harvesting" color="#f21223" alpha="255" value="3"/>
+          <item label="Good_recharge" color="#4ee323" alpha="255" value="1"/>
+          <item label="Moderate_recharge" color="#f3ff33" alpha="255" value="2"/>
+          <item label="Surface_water_harvesting" color="#f21223" alpha="255" value="3"/>
           <item label="Regeneration" color="#b40f7d" alpha="255" value="4"/>
-          <item label="High runoff zone" color="#1774de" alpha="255" value="5"/>
+          <item label="High_runoff_zone" color="#1774de" alpha="255" value="5"/>
           <rampLegendSettings prefix="" minimumLabel="" orientation="2" direction="0" suffix="" useContinuousLegend="1" maximumLabel="">
             <numericFormat id="basic">
               <Option type="Map">
