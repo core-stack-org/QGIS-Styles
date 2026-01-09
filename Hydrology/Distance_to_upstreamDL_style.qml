@@ -145,14 +145,14 @@
               <Option type="QString" value="6e-09;95,188,246,255;rgb;ccw:1.2e-08;20,86,38,255;rgb;ccw:2.4e-08;61,240,60,255;rgb;ccw:5e-08;240,238,38,255;rgb;ccw:1e-07;235,129,21,255;rgb;ccw:2e-07;221,15,8,255;rgb;ccw" name="stops"/>
             </Option>
           </colorramp>
-          <item label="&lt;= 0.0000" alpha="255" value="0" color="#0e10c7"/>
-          <item label="0.0000 - 60.0000" alpha="255" value="60" color="#5fbcf6"/>
-          <item label="60.0000 - 120.0000" alpha="255" value="120" color="#145626"/>
-          <item label="120.0000 - 240.0000" alpha="255" value="240" color="#3df03c"/>
-          <item label="240.0000 - 500.0000" alpha="255" value="500" color="#f0ee26"/>
-          <item label="500.0000 - 1000.0000" alpha="255" value="1000" color="#eb8115"/>
-          <item label="1000.0000 - 2000.0000" alpha="255" value="2000" color="#dd0f08"/>
-          <item label="> 2000.0000" alpha="255" value="999999" color="#7d0b1b"/>
+          <item label="less_than_equal_to_0.0000" alpha="255" value="0" color="#0e10c7"/>
+          <item label="0.0000-60.0000" alpha="255" value="60" color="#5fbcf6"/>
+          <item label="60.0000-120.0000" alpha="255" value="120" color="#145626"/>
+          <item label="120.0000-240.0000" alpha="255" value="240" color="#3df03c"/>
+          <item label="240.0000-500.0000" alpha="255" value="500" color="#f0ee26"/>
+          <item label="500.0000-1000.0000" alpha="255" value="1000" color="#eb8115"/>
+          <item label="1000.0000-2000.0000" alpha="255" value="2000" color="#dd0f08"/>
+          <item label="greater_than_2000.0000" alpha="255" value="999999" color="#7d0b1b"/>
           <rampLegendSettings minimumLabel="" maximumLabel="" direction="0" orientation="2" suffix="" useContinuousLegend="1" prefix="">
             <numericFormat id="basic">
               <Option type="Map">
