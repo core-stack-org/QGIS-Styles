@@ -147,11 +147,11 @@
             </Option>
           </colorramp>
           <item alpha="0" label="Background" value="0" color="#f7fcf5"/>
-          <item alpha="255" label="Trees - Trees" value="1" color="#73bb53"/>
-          <item alpha="255" label="Built Up - Trees" value="2" color="#ff0000"/>
-          <item alpha="255" label="Crops - Trees" value="3" color="#eee05d"/>
-          <item alpha="255" label="Barren - Trees" value="4" color="#a9a9a9"/>
-          <item alpha="255" label="Shrubs and Scrubs - Trees" value="5" color="#eaa4f0"/>
+          <item alpha="255" label="Trees-Trees" value="1" color="#73bb53"/>
+          <item alpha="255" label="Built_Up-Trees" value="2" color="#ff0000"/>
+          <item alpha="255" label="Crops-Trees" value="3" color="#eee05d"/>
+          <item alpha="255" label="Barren-Trees" value="4" color="#a9a9a9"/>
+          <item alpha="255" label="Shrubs_and_Scrubs-Trees" value="5" color="#eaa4f0"/>
           <rampLegendSettings prefix="" minimumLabel="" orientation="2" maximumLabel="" direction="0" suffix="" useContinuousLegend="1">
             <numericFormat id="basic">
               <Option type="Map">
