@@ -145,13 +145,13 @@
               <Option type="QString" value="0.0999982;255,255,204,255;rgb;ccw:0.299995;161,218,180,255;rgb;ccw:0.499991;44,127,184,255;rgb;ccw:0.999982;37,52,148,255;rgb;ccw:1.99996;46,0,79,255;rgb;ccw:4.99991;103,0,31,255;rgb;ccw" name="stops"/>
             </Option>
           </colorramp>
-          <item label="&lt;= 1.0000" alpha="255" value="1" color="#ffffcc"/>
-          <item label="1.0000 - 3.0000" alpha="255" value="3" color="#a1dab4"/>
-          <item label="3.0000 - 5.0000" alpha="255" value="5" color="#2c7fb8"/>
-          <item label="5.0000 - 10.0000" alpha="255" value="10" color="#253494"/>
-          <item label="10.0000 - 20.0000" alpha="255" value="20" color="#2e004f"/>
-          <item label="20.0000 - 50" alpha="255" value="50" color="#67001f"/>
-          <item label="> 50.0000" alpha="255" value="999999" color="#990000"/>
+          <item label="less_than_equal_to_1.0000" alpha="255" value="1" color="#ffffcc"/>
+          <item label="1.0000-3.0000" alpha="255" value="3" color="#a1dab4"/>
+          <item label="3.0000-5.0000" alpha="255" value="5" color="#2c7fb8"/>
+          <item label="5.0000-10.0000" alpha="255" value="10" color="#253494"/>
+          <item label="10.0000-20.0000" alpha="255" value="20" color="#2e004f"/>
+          <item label="20.0000-50" alpha="255" value="50" color="#67001f"/>
+          <item label="greater_than_50.0000" alpha="255" value="999999" color="#990000"/>
           <rampLegendSettings minimumLabel="" maximumLabel="" direction="0" orientation="2" suffix="" useContinuousLegend="1" prefix="">
             <numericFormat id="basic">
               <Option type="Map">
