@@ -42,19 +42,19 @@
         <stdDevFactor>2</stdDevFactor>
       </minMaxOrigin>
       <colorPalette>
-        <paletteEntry value="0" label="No data" alpha="0" color="#ffffff"/>
-        <paletteEntry value="1" label="V-shape river valleys, Deep narrow canyons" color="#313695" alpha="255"/>
-        <paletteEntry value="2" label="Lateral midslope incised drainages, Local valleys in plains" color="#4575b4" alpha="255"/>
-        <paletteEntry value="3" label="Upland incised drainages, Stream headwaters" color="#a50026" alpha="255"/>
-        <paletteEntry value="4" label="U-shape valleys" color="#e0f3f8" alpha="255"/>
-        <paletteEntry value="5" label="Broad Flat Areas" color="#fffc00" alpha="255"/>
-        <paletteEntry value="6" label="Broad open slopes" color="#feb24c" alpha="255"/>
-        <paletteEntry value="7" label="Mesa tops" color="#f46d43" alpha="255"/>
-        <paletteEntry value="8" label="Upper Slopes" color="#d73027" alpha="255"/>
-        <paletteEntry value="9" label="Local ridge/hilltops within broad valleys" color="#91bfdb" alpha="255"/>
-        <paletteEntry value="10" label="Lateral midslope drainage divides, Local ridges in plains" color="#800000" alpha="255"/>
-        <paletteEntry value="11" label="Mountain tops, high ridges" color="#4d0000" alpha="255"/>
-        //<paletteEntry value="12" label="No data" color="#ffffff" alpha="255"/>
+        <paletteEntry value="0" label="No_data" alpha="0" color="#ffffff"/>
+        <paletteEntry value="1" label="V-shape_river_valleys_and_Deep_narrow_canyons" color="#313695" alpha="255"/>
+        <paletteEntry value="2" label="Lateral_midslope_incised_drainages_and_Local_valleys_in_plains" color="#4575b4" alpha="255"/>
+        <paletteEntry value="3" label="Upland_incised_drainages_and_Stream_headwaters" color="#a50026" alpha="255"/>
+        <paletteEntry value="4" label="U-shape_valleys" color="#e0f3f8" alpha="255"/>
+        <paletteEntry value="5" label="Broad_Flat_Areas" color="#fffc00" alpha="255"/>
+        <paletteEntry value="6" label="Broad_open_slopes" color="#feb24c" alpha="255"/>
+        <paletteEntry value="7" label="Mesa_tops" color="#f46d43" alpha="255"/>
+        <paletteEntry value="8" label="Upper_Slopes" color="#d73027" alpha="255"/>
+        <paletteEntry value="9" label="Local_ridge_or_hilltops_within_broad_valleys" color="#91bfdb" alpha="255"/>
+        <paletteEntry value="10" label="Lateral_midslope_drainage_divides_or_Local_ridges_in_plains" color="#800000" alpha="255"/>
+        <paletteEntry value="11" label="Mountain_tops_or_high_ridges" color="#4d0000" alpha="255"/>
+        //<paletteEntry value="12" label="No_data" color="#ffffff" alpha="255"/>
       </colorPalette>
       <colorramp type="randomcolors" name="[source]">
         <Option/>
