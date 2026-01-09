@@ -42,11 +42,11 @@
         <stdDevFactor>2</stdDevFactor>
       </minMaxOrigin>
       <colorPalette>
-        <paletteEntry alpha="255" label="0" value="0" color="#2e7d32"/>
-        <paletteEntry alpha="255" label="1" value="1" color="#66bb6a"/>
-        <paletteEntry alpha="255" label="2" value="2" color="#fdd835"/>
-        <paletteEntry alpha="255" label="3" value="3" color="#ff8f00"/>
-        <paletteEntry alpha="255" label="4" value="4" color="#d32f2f"/>
+        <paletteEntry alpha="255" label="Very_Good" value="0" color="#2e7d32"/>
+        <paletteEntry alpha="255" label="Good" value="1" color="#66bb6a"/>
+        <paletteEntry alpha="255" label="Moderate" value="2" color="#fdd835"/>
+        <paletteEntry alpha="255" label="Marginally_Suitable" value="3" color="#ff8f00"/>
+        <paletteEntry alpha="255" label="Unsuitable" value="4" color="#d32f2f"/>
       </colorPalette>
       <colorramp name="[source]" type="randomcolors">
         <Option/>
