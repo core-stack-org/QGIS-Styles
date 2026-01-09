@@ -43,18 +43,18 @@
       </minMaxOrigin>
       <colorPalette>
         <paletteEntry value="0" label="clear" alpha="0" color="#000000"/>
-        <paletteEntry value="1" label="built up" alpha="255" color="#ff0000"/>
-        <paletteEntry value="2" label="kharif water" alpha="255" color="#74ccf4"/>
-        <paletteEntry value="3" label="kharif and rabi water" alpha="255" color="#1ca3ec"/>
-        <paletteEntry value="4" label="kharif and rabi and zaid water" alpha="255" color="#0f5e9c"/>
+        <paletteEntry value="1" label="built_up" alpha="255" color="#ff0000"/>
+        <paletteEntry value="2" label="kharif_water" alpha="255" color="#74ccf4"/>
+        <paletteEntry value="3" label="kharif_and_rabi_water" alpha="255" color="#1ca3ec"/>
+        <paletteEntry value="4" label="kharif_and_rabi_and_zaid_water" alpha="255" color="#0f5e9c"/>
         <paletteEntry value="5" label="crops" alpha="255" color="#f1c232"/>
         <paletteEntry value="6" label="trees" alpha="255" color="#38761d"/>
-        <paletteEntry value="7" label="barren land" alpha="255" color="#a9a9a9"/>
-        <paletteEntry value="8" label="single kharif cropping" alpha="255" color="#bad93e"/>
-        <paletteEntry value="9" label="single non-kharif Cropping" alpha="255" color="#f59d22"/>
-        <paletteEntry value="10" label="double cropping" alpha="255" color="#ff9371"/>
-        <paletteEntry value="11" label="tripple/annual/perennial cropping" alpha="255" color="#b3561d"/>
-        <paletteEntry value="12" label="shrubs and scrubs" alpha="255" color="#a9a9a9"/>
+        <paletteEntry value="7" label="barren_land" alpha="255" color="#a9a9a9"/>
+        <paletteEntry value="8" label="single_kharif_cropping" alpha="255" color="#bad93e"/>
+        <paletteEntry value="9" label="single_non-kharif_cropping" alpha="255" color="#f59d22"/>
+        <paletteEntry value="10" label="double_cropping" alpha="255" color="#ff9371"/>
+        <paletteEntry value="11" label="tripple_or_annual_or_perennial_cropping" alpha="255" color="#b3561d"/>
+        <paletteEntry value="12" label="shrubs_and_scrubs" alpha="255" color="#a9a9a9"/>
       </colorPalette>
       <colorramp type="randomcolors" name="[source]">
         <Option/>
