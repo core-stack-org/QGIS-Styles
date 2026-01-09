@@ -59,12 +59,12 @@
           </colorramp>
           <item alpha="255" value="-2" color="#ff0000" label="Deforestation"/>
           <item alpha="255" value="-1" color="#ffa500" label="Degradation"/>
-          <item alpha="255" value="0" color="#ffffff" label="No Change"/>
+          <item alpha="255" value="0" color="#ffffff" label="No_Change"/>
           <item alpha="255" value="1" color="#8aff8a" label="Improvement"/>
           <item alpha="255" value="2" color="#007500" label="Afforestation"/>
-          <item alpha="255" value="3" color="#dee64c" label="Partially Degraded"/>
-          <item alpha="255" value="4" color="#dee64c" label="Partially Degraded"/>
-          <item alpha="255" value="5" color="#000000" label="Missing Data"/>
+          <item alpha="255" value="3" color="#dee64c" label="Partially_Degraded"/>
+          <item alpha="255" value="4" color="#dee64c" label="Partially_Degraded"/>
+          <item alpha="255" value="5" color="#000000" label="Missing_Data"/>
           <rampLegendSettings maximumLabel="" minimumLabel="" orientation="2" suffix="" prefix="" direction="0" useContinuousLegend="1">
             <numericFormat id="basic">
               <Option type="Map">
