@@ -146,7 +146,7 @@
               <Option name="stops" value="0.001;68,1,84,255;rgb;ccw:0.025;69,49,124,255;rgb;ccw:0.05;55,90,140,255;rgb;ccw:0.1;40,123,142,255;rgb;ccw:0.25;33,152,137,255;rgb;ccw:0.5;76,190,108,255;rgb;ccw:1;230,227,46,255;rgb;ccw" type="QString"/>
             </Option>
           </colorramp>
-          <item label="&lt;less_than_equal_to_zero_ha" alpha="255" value="0" color="#ffffff"/>
+          <item label="less_than_equal_to_zero_ha" alpha="255" value="0" color="#ffffff"/>
           <item label="0-2_ha" alpha="255" value="2" color="#440154"/>
           <item label="2_50_ha" alpha="255" value="50" color="#45317c"/>
           <item label="50-100_ha" alpha="255" value="100" color="#375a8c"/>
