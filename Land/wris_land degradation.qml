@@ -137,43 +137,43 @@
         <stdDevFactor>2</stdDevFactor>
       </minMaxOrigin>
       <colorPalette>
-  <paletteEntry alpha="255" color="#f1e9c9" label="Others -RiverineSands/Sea Ingress etc" value="1"/>
-  <paletteEntry alpha="255" color="#fee8c8" label="Water Erosion -Sheet erosion - Slight" value="2"/>
-  <paletteEntry alpha="255" color="#636363" label="Anthropogenic -Mining and dump areas" value="3" outline_color="#000000" outline_width="1.0"/>
-  <paletteEntry alpha="255" color="#fdbb84" label="Water Erosion -Sheet erosion - Moderate" value="4"/>
-  <paletteEntry alpha="255" color="#9e9ac8" label="Salinisation / Alkalisation -Sodic -  Moderate" value="5"/>
-  <paletteEntry alpha="255" color="#fff7bc" label="Wind Erosion -Sheet erosion - Slight" value="6"/>
-  <paletteEntry alpha="255" color="#e34a33" label="Water Erosion -Sheet erosion - Severe" value="7"/>
-  <paletteEntry alpha="255" color="#ffe082" label="Wind Erosion -Partially Stablized Dunes" value="8"/>
-  <paletteEntry alpha="255" color="#dadaeb" label="Salinisation / Alkalisation -Sodic -  Slight" value="9"/>
-  <paletteEntry alpha="255" color="#fff3b0" label="Wind Erosion -Un-Stablized Dunes" value="10"/>
-  <paletteEntry alpha="255" color="#c2b280" label="Wind Erosion -Stablized Dunes" value="11"/>
-  <paletteEntry alpha="255" color="#fde0dd" label="Salinisation / Alkalisation -Saline - Slight" value="12"/>
-  <paletteEntry alpha="255" color="#08519c" label="Water logging -Surface ponding -Permanent" value="13"/>
-  <paletteEntry alpha="255" color="#8d6e63" label="Others -Barren rocky / Stony waste" value="14"/>
-  <paletteEntry alpha="255" color="#41ab5d" label="Acidification -Acidic – Moderate" value="15"/>
-  <paletteEntry alpha="255" color="#006d2c" label="Acidification -Acidic – Severe" value="16"/>
-  <paletteEntry alpha="255" color="#b2df8a" label="Anthropogenic -Industrial effluent affected areas" value="17" outline_color="#000000" outline_width="1.0"/>
-  <paletteEntry alpha="255" color="#99000d" label="Water Erosion -Gullies" value="18"/>
-  <paletteEntry alpha="255" color="#fa9fb5" label="Salinisation / Alkalisation -Saline - Moderate" value="19"/>
-  <paletteEntry alpha="255" color="#ad1f7b" label="Salinisation / Alkalisation -Saline Sodic - Severe" value="20"/>
-  <paletteEntry alpha="255" color="#f2b6d4" label="Salinisation / Alkalisation -Saline Sodic - Slight" value="21"/>
-  <paletteEntry alpha="255" color="#e377c2" label="Salinisation / Alkalisation -Saline Sodic - Moderate" value="22"/>
-  <paletteEntry alpha="255" color="#b30000" label="Water Erosion -Rills" value="23"/>
-  <paletteEntry alpha="255" color="#6baed6" label="Water logging -Surface ponding - Seasonal" value="24"/>
-    <paletteEntry alpha="255" color="#252525" label="Anthropogenic -Brick kiln" value="25" outline_color="#000000" outline_width="1.0"/>
-  <paletteEntry alpha="255" color="#b15928" label="Others -Mass movement / mass wastage" value="26"/>
-  <paletteEntry alpha="255" color="#3182bd" label="Water logging -Subsurface waterlogged" value="27"/>
-  <paletteEntry alpha="255" color="#54278f" label="Salinisation / Alkalisation -Sodic -  Severe" value="28"/>
-  <paletteEntry alpha="255" color="#a50f15" label="Water Erosion -Ravines-Shallow" value="29"/>
-  <paletteEntry alpha="255" color="#c51b8a" label="Salinisation / Alkalisation -Saline - Severe" value="30"/>
-  <paletteEntry alpha="255" color="#fec44f" label="Wind Erosion -Sheet erosion - Moderate" value="31"/>
-  <paletteEntry alpha="255" color="#d95f0e" label="Wind Erosion -Sheet erosion - Severe" value="32"/>
-  <paletteEntry alpha="255" color="#fff7fb" label="Salinisation / Alkalisation -Rann" value="33"/>
-  <paletteEntry alpha="255" color="#ccece6" label="Glacial -Frost Shattering" value="34"/>
-  <paletteEntry alpha="255" color="#67000d" label="Water Erosion -Ravines-Deep" value="35"/>
-  <paletteEntry alpha="255" color="#99d8c9" label="Glacial -Frost heaving" value="36"/>
-  <paletteEntry alpha="255" color="#d9d9d9" label="Data Not Available" value="37"/>
+  <paletteEntry alpha="255" color="#f1e9c9" label="Others-RiverineSands_or_Sea_Ingress_etc" value="1"/>
+  <paletteEntry alpha="255" color="#fee8c8" label="Water_Erosion-Sheet_erosion-Slight" value="2"/>
+  <paletteEntry alpha="255" color="#636363" label="Anthropogenic-Mining_and_dump_areas" value="3" outline_color="#000000" outline_width="1.0"/>
+  <paletteEntry alpha="255" color="#fdbb84" label="Water_Erosion-Sheet_erosion-Moderate" value="4"/>
+  <paletteEntry alpha="255" color="#9e9ac8" label="Salinisation_or_Alkalisation-Sodic-Moderate" value="5"/>
+  <paletteEntry alpha="255" color="#fff7bc" label="Wind_Erosion-Sheet_erosion-Slight" value="6"/>
+  <paletteEntry alpha="255" color="#e34a33" label="Water_Erosion-Sheet_erosion-Severe" value="7"/>
+  <paletteEntry alpha="255" color="#ffe082" label="Wind_Erosion-Partially_Stablized_Dunes" value="8"/>
+  <paletteEntry alpha="255" color="#dadaeb" label="Salinisation_or_Alkalisation-Sodic-Slight" value="9"/>
+  <paletteEntry alpha="255" color="#fff3b0" label="Wind_Erosion-Un-Stablized_Dunes" value="10"/>
+  <paletteEntry alpha="255" color="#c2b280" label="Wind_Erosion-Stablized_Dunes" value="11"/>
+  <paletteEntry alpha="255" color="#fde0dd" label="Salinisation_or_Alkalisation-Saline-Slight" value="12"/>
+  <paletteEntry alpha="255" color="#08519c" label="Water_logging-Surface_ponding-Permanent" value="13"/>
+  <paletteEntry alpha="255" color="#8d6e63" label="Others-Barren_rocky_or_Stony_waste" value="14"/>
+  <paletteEntry alpha="255" color="#41ab5d" label="Acidification-Acidic–Moderate" value="15"/>
+  <paletteEntry alpha="255" color="#006d2c" label="Acidification-Acidic–Severe" value="16"/>
+  <paletteEntry alpha="255" color="#b2df8a" label="Anthropogenic-Industrial_effluent_affected_areas" value="17" outline_color="#000000" outline_width="1.0"/>
+  <paletteEntry alpha="255" color="#99000d" label="Water_Erosion-Gullies" value="18"/>
+  <paletteEntry alpha="255" color="#fa9fb5" label="Salinisation_or_Alkalisation-Saline-Moderate" value="19"/>
+  <paletteEntry alpha="255" color="#ad1f7b" label="Salinisation_or_Alkalisation-Saline_Sodic-Severe" value="20"/>
+  <paletteEntry alpha="255" color="#f2b6d4" label="Salinisation_or_Alkalisation-Saline_Sodic-Slight" value="21"/>
+  <paletteEntry alpha="255" color="#e377c2" label="Salinisation_or_Alkalisation-Saline_Sodic-Moderate" value="22"/>
+  <paletteEntry alpha="255" color="#b30000" label="Water_Erosion-Rills" value="23"/>
+  <paletteEntry alpha="255" color="#6baed6" label="Water_logging-Surface_ponding-Seasonal" value="24"/>
+    <paletteEntry alpha="255" color="#252525" label="Anthropogenic-Brick_kiln" value="25" outline_color="#000000" outline_width="1.0"/>
+  <paletteEntry alpha="255" color="#b15928" label="Others-Mass_movement_or_mass_wastage" value="26"/>
+  <paletteEntry alpha="255" color="#3182bd" label="Water_logging-Subsurface_waterlogged" value="27"/>
+  <paletteEntry alpha="255" color="#54278f" label="Salinisation_or_Alkalisation-Sodic -  Severe" value="28"/>
+  <paletteEntry alpha="255" color="#a50f15" label="WaterErosion-Ravines-Shallow" value="29"/>
+  <paletteEntry alpha="255" color="#c51b8a" label="Salinisation_or_Alkalisation-Saline-Severe" value="30"/>
+  <paletteEntry alpha="255" color="#fec44f" label="Wind_Erosion-Sheet_erosion-Moderate" value="31"/>
+  <paletteEntry alpha="255" color="#d95f0e" label="Wind_Erosion-Sheet_erosion-Severe" value="32"/>
+  <paletteEntry alpha="255" color="#fff7fb" label="Salinisation_or_Alkalisation-Rann" value="33"/>
+  <paletteEntry alpha="255" color="#ccece6" label="Glacial-Frost_Shattering" value="34"/>
+  <paletteEntry alpha="255" color="#67000d" label="Water_Erosion-Ravines-Deep" value="35"/>
+  <paletteEntry alpha="255" color="#99d8c9" label="Glacial-Frost_heaving" value="36"/>
+  <paletteEntry alpha="255" color="#d9d9d9" label="Data_Not_Available" value="37"/>
 </colorPalette>
 
       <colorramp name="[source]" type="randomcolors">
