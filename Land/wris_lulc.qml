@@ -16,12 +16,12 @@
           <item alpha="255" value="1"  label="Built_Up"                                         color="#D73027"/>
 
           <!-- 2–7 Agriculture: CROPS in yellow/orange family; not green -->
-          <item alpha="255" value="2"  label="Cropland—Kharif"                                color="#FFE873"/>  <!-- sunflower -->
-          <item alpha="255" value="3"  label="Cropland—Rabi"                                  color="#FFC247"/>  <!-- amber -->
-          <item alpha="255" value="4"  label="Cropland—Zaid"                                  color="#FFE0A3"/>  <!-- pale wheat -->
-          <item alpha="255" value="5"  label="Cropland—Double_or_Triple"                         color="#FF9E1B"/>  <!-- orange -->
-          <item alpha="255" value="6"  label="Fallow_Land—Current_Fallow"                     color="#D7CCC8"/>  <!-- taupe -->
-          <item alpha="255" value="7"  label="Agriculture_Plantation—Plantation"              color="#B5651D"/>  <!-- brown/copper -->
+          <item alpha="255" value="2"  label="Cropland-Kharif"                                color="#FFE873"/>  <!-- sunflower -->
+          <item alpha="255" value="3"  label="Cropland-Rabi"                                  color="#FFC247"/>  <!-- amber -->
+          <item alpha="255" value="4"  label="Cropland-Zaid"                                  color="#FFE0A3"/>  <!-- pale wheat -->
+          <item alpha="255" value="5"  label="Cropland-Double_or_Triple"                         color="#FF9E1B"/>  <!-- orange -->
+          <item alpha="255" value="6"  label="Fallow_Land-Current_Fallow"                     color="#D7CCC8"/>  <!-- taupe -->
+          <item alpha="255" value="7"  label="Agriculture_Plantation-Plantation"              color="#B5651D"/>  <!-- brown/copper -->
 
           <!-- 8–11 Forests: GREENS/TEAL only -->
           <item alpha="255" value="8"  label="Forest—Evergreen_or_Semi-Evergreen"                color="#006400"/>  <!-- dark green -->
