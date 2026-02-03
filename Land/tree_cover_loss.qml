@@ -147,7 +147,7 @@
             </Option>
           </colorramp>
           <item alpha="0" label="Background" value="0" color="#f7fcf5"/>
-          <item alpha="204" label=" Trees-Trees" value="1" color="#73bb53"/>
+          <item alpha="204" label="Trees-Trees" value="1" color="#73bb53"/>
           <item alpha="255" label="Trees-Built_Up" value="2" color="#ff0000"/>
           <item alpha="255" label="Trees-Crops" value="3" color="#eee05d"/>
           <item alpha="255" label="Trees-Barren" value="4" color="#a9a9a9"/>
