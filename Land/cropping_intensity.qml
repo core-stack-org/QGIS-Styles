@@ -147,13 +147,15 @@
             </Option>
           </colorramp>
           <item alpha="0" label="Background" value="0" color="#f7fcf5"/>
-          <item alpha="255" label="Double - Single" value="1" color="#ff6347"/>
-          <item alpha="255" label="Tripple/annual/perennial - Single" value="2" color="#ff4500"/>
-          <item alpha="255" label="Tripple/annual/perennial - Double" value="3" color="#ff0000"/>
-          <item alpha="255" label="Single - Double" value="4" color="#00ff00"/>
-          <item alpha="255" label="Single - Tripple/annual/perennial" value="5" color="#32cd32"/>
-          <item alpha="255" label="Double - Tripple/annual/perennial" value="6" color="#228b22"/>
-          <item alpha="255" label="No change" value="7" color="#712103"/>
+          <item alpha="255" label="Double-Single" value="1" color="#ff6347"/>
+          <item alpha="255" label="Tripple_or_annual_or_perennial-Single" value="2" color="#ff4500"/>
+          <item alpha="255" label="Tripple_or_annual_or_perennial-Double" value="3" color="#ff0000"/>
+          <item alpha="255" label="Single-Double" value="4" color="#00ff00"/>
+          <item alpha="255" label="Single-Tripple_or_annual_or_perennial" value="5" color="#32cd32"/>
+          <item alpha="255" label="Double-Tripple_or_annual_or_perennial" value="6" color="#228b22"/>
+          <item alpha="255" label="Single-Single" value="7" color="#4227F5"/>
+          <item alpha="255" label="Double-Double" value="8" color="#712103"/>
+          <item alpha="255" label="Tripple_or_annual_or_perennial-Tripple_or_annual_or_perennial" value="9" color="#AD27F5"/>
           <rampLegendSettings prefix="" minimumLabel="" orientation="2" maximumLabel="" direction="0" suffix="" useContinuousLegend="1">
             <numericFormat id="basic">
               <Option type="Map">
