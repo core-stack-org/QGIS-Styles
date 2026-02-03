@@ -147,7 +147,7 @@
             </Option>
           </colorramp>
           <item alpha="0" label="Background" value="0" color="#f7fcf5"/>
-          <item alpha="255" label="Crops_Crops" value="1" color="#eee05d"/>
+          <item alpha="255" label="Crops-Crops" value="1" color="#eee05d"/>
           <item alpha="255" label="Crops-Built_Up" value="2" color="#ff0000"/>
           <item alpha="255" label="Crops-Barren" value="3" color="#a9a9a9"/>
           <item alpha="255" label="Crops-Shrubs_and_Scrubs" value="4" color="#eaa4f0"/>
