@@ -134,7 +134,7 @@
         <stdDevFactor>2</stdDevFactor>
       </minMaxOrigin>
       <colorPalette>
-        <paletteEntry value="0" alpha="0" color="#8167e7"/>
+        <paletteEntry value="0" alpha="0" color="#A18F60"/>
         <paletteEntry value="1" alpha="0" color="#ff0000"/>
         <paletteEntry value="2" alpha="0" color="#1ca3ec"/>
         <paletteEntry value="3" alpha="0" color="#1ca3ec"/>
@@ -143,10 +143,10 @@
         <paletteEntry value="6" alpha="0" color="#73bb53"/>
         <paletteEntry value="7" alpha="0" color="#8ca991"/>
         <paletteEntry value="12" alpha="0" color="#eaa4f0"/>
-        <paletteEntry value="8" alpha="179" label="Single Kharif " color="#c6e46d"/>
-        <paletteEntry value="9" alpha="179" label="Single Non-kharif" color="#eee05d"/>
-        <paletteEntry value="10" alpha="179" label="Double Cropping " color="#f9b249"/>
-        <paletteEntry value="11" alpha="179" label="Triple Cropping" color="#fb5139"/>
+        <paletteEntry value="8" alpha="179" label="Single Kharif " color="#D9F0A3"/>
+        <paletteEntry value="9" alpha="179" label="Single Non-kharif" color="#A6D96A"/>
+        <paletteEntry value="10" alpha="179" label="Double Cropping " color="#4DAF4A"/>
+        <paletteEntry value="11" alpha="179" label="Triple Cropping" color="#006D2C"/>
       </colorPalette>
       <colorramp type="randomcolors" name="[source]">
         <Option/>
