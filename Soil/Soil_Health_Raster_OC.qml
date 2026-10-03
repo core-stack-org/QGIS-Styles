@@ -63,7 +63,7 @@
           </colorramp>
           <item alpha="255" value="120" color="#c8e6c9" label="Low (0-120 kg/ha)"/>
           <item alpha="255" value="280" color="#66bb6a" label="Medium (120-280 kg/ha)"/>
-          <item alpha="255" value="inf" color="#2e7d32" label="High (&gt;280 kg/ha)"/>
+          <item alpha="255" value="99999" color="#2e7d32" label="High (&gt;280 kg/ha)"/>
           <rampLegendSettings maximumLabel="" minimumLabel="" orientation="2" suffix="" prefix="" direction="0" useContinuousLegend="1">
             <numericFormat id="basic">
               <Option type="Map">

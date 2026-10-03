@@ -149,7 +149,7 @@
           <item alpha="255" label="&lt;=1% (Scrubs / Degraded land)" value="1" color="#ef5350"/>
           <item alpha="255" label="1-2% (Open Forests)" value="2" color="#ffca28"/>
           <item alpha="255" label="2-3% (Moderately Dense Forest)" value="3" color="#81c784"/>
-          <item alpha="255" label="&gt;3% (Very Dense Forest)" value="inf" color="#66bb6a"/>
+          <item alpha="255" label="&gt;3% (Very Dense Forest)" value="99999" color="#66bb6a"/>
           <rampLegendSettings prefix="" minimumLabel="" orientation="2" maximumLabel="" direction="0" suffix="" useContinuousLegend="1">
             <numericFormat id="basic">
               <Option type="Map">

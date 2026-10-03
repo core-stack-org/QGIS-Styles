@@ -63,7 +63,7 @@
           </colorramp>
           <item alpha="255" value="10" color="#d73027" label="Low (&lt;10)"/>
           <item alpha="255" value="25" color="#fee08b" label="Medium (10-25)"/>
-          <item alpha="255" value="inf" color="#1a9850" label="High (&gt;25)"/>
+          <item alpha="255" value="99999" color="#1a9850" label="High (&gt;25)"/>
           <rampLegendSettings maximumLabel="" minimumLabel="" orientation="2" suffix="" prefix="" direction="0" useContinuousLegend="1">
             <numericFormat id="basic">
               <Option type="Map">
